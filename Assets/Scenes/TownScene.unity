@@ -5248,7 +5248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brinquedo
+  m_Text: Lugar Especial
 --- !u!222 &551913500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8593,7 +8593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lugar 2x2
+  m_Text: Brinquedo
 --- !u!222 &917600370
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14130,11 +14130,11 @@ MonoBehaviour:
     weight: 1
   bigStructuresPrefabs:
   - prefab: {fileID: 2620026419681615056, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
+    weight: 0
+  - prefab: {fileID: 7590020696203606111, guid: 4baab2d89f3ecbd49b637234012f7166, type: 3}
+    weight: 0
+  - prefab: {fileID: 5496812227470892808, guid: 61531d9d43433e94684e1fe919d84060, type: 3}
     weight: 1
-  - prefab: {fileID: 579076544945382630, guid: ec43d84c24241fd4d8cd8a803092168f, type: 3}
-    weight: 0
-  - prefab: {fileID: 5985451652230937832, guid: 08bf96a139f4a7e4aaeda03d2c9f932e, type: 3}
-    weight: 0
   placementManeger: {fileID: 2136393114}
 --- !u!4 &1397681939
 Transform:
@@ -22419,60 +22419,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2620026420151294814
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2620026419681615056, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_Name
-      value: Ferris
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620026419681615057, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}

@@ -1,0 +1,1925 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1055; Version 2009; 64bit' Language: 'pt' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/emanu/Desafio Disney
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52157
+Successfully changed project path to: C:/Users/emanu/Desafio Disney
+C:/Users/emanu/Desafio Disney
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 122.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emanu/Desafio Disney/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   26.21.14.4587
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006327 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 132.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.237 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.306 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3112.
+Total: 7.475300 ms (FindLiveObjects: 0.455200 ms CreateObjectMapping: 0.246100 ms MarkObjects: 4.195500 ms  DeleteObjects: 2.576100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46492cae51af2258542c9bc48f0a0c62') in 0.532752 seconds
+  Import took 0.542050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.925971 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea5f0c14b9935f6c28aba5db62360df') in 0.037959 seconds
+  Import took 0.047277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746420 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510af16d46f3be4bc74cdde031d38aa') in 0.024062 seconds
+  Import took 0.034008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.409372 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bcb8a2a60fe83277b23d60a67112aa') in 0.020407 seconds
+  Import took 0.053555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569786 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378e914d470425dda71db1c250bb9a3a') in 0.019744 seconds
+  Import took 0.046280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.887191 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6fddc719d1bd81d02656b87f11ca6a') in 0.019431 seconds
+  Import took 0.029066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.900 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 126.3 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 9.909400 ms (FindLiveObjects: 0.643100 ms CreateObjectMapping: 0.364800 ms MarkObjects: 5.373800 ms  DeleteObjects: 3.524700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.193884 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043a03e3750a816bf3c9b5320f59617a') in 0.368481 seconds
+  Import took 0.378622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.719017 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2125d2bbf74d4167bcd3bce6d663d6') in 0.022842 seconds
+  Import took 0.032514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.481643 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab944a1e104f211fdcda359115b0c96b') in 0.023971 seconds
+  Import took 0.035169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.468566 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89e6757220d6694ea20449fa49bea2a') in 0.029949 seconds
+  Import took 0.040270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.758163 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd68baf846243a425bc94d4171f8e0a8') in 0.020366 seconds
+  Import took 0.029044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.345 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 126.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 7.059300 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.215100 ms MarkObjects: 3.668600 ms  DeleteObjects: 2.694900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.633189 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90caaa1d0fe89571818b3baeb9d01dd') in 0.374173 seconds
+  Import took 0.383670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192394 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad6cc4b1c290acc4b26edbf13dd45f') in 0.024799 seconds
+  Import took 0.033734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.386139 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d6cecd3857a6e7869718e47b29c62') in 0.025023 seconds
+  Import took 0.033786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.799737 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22f9b75f2c93699ed8800f5a5f53746') in 0.023139 seconds
+  Import took 0.032175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024231 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351ad3a4d635ec8c915484630bd475f2') in 0.022165 seconds
+  Import took 0.032192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.549929 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4089dad6f8a4d935ae2208231f207b48') in 0.023131 seconds
+  Import took 0.032209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574989 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e207436321ce37413bb4df1b9db84db') in 0.020631 seconds
+  Import took 0.029111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.857784 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd438e3fd3e5b1ac8ef2e4a9cc2c10797') in 0.023604 seconds
+  Import took 0.033124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.247981 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777b1fa1481ebcb5a15b0ac4cfa290e8') in 0.022837 seconds
+  Import took 0.031628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.601894 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93682ff14ad5b0d233fbc3a62854e95') in 0.022793 seconds
+  Import took 0.031093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.039081 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd6bb2f3d79d9b77b638c088ca06f1f') in 0.021830 seconds
+  Import took 0.030457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.382 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 8.131700 ms (FindLiveObjects: 0.551500 ms CreateObjectMapping: 0.257300 ms MarkObjects: 4.543400 ms  DeleteObjects: 2.776900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.586127 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bcc92992398a5701a574660979b774') in 0.354766 seconds
+  Import took 0.362964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.556011 seconds.
+  path: Assets/Scripts/PlacementManager.cs
+  artifactKey: Guid(dc80933e41186a54999d656f5067df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlacementManager.cs using Guid(dc80933e41186a54999d656f5067df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692aee795291a407b46e59fd65116001') in 0.036299 seconds
+  Import took 0.076504 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.340 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3278.
+Total: 7.539800 ms (FindLiveObjects: 0.490300 ms CreateObjectMapping: 0.236400 ms MarkObjects: 4.163600 ms  DeleteObjects: 2.647000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.375337 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fce5a4b0dbb2d373f808e7a2a6d2cb1') in 0.357138 seconds
+  Import took 0.365227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619196 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acef2b6988a458fbf8d45b03ad7021ee') in 0.020602 seconds
+  Import took 0.029141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602491 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e439dda8fa428ffe66eef0b80317f') in 0.020142 seconds
+  Import took 0.029624 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.636 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3317.
+Total: 8.257600 ms (FindLiveObjects: 0.477100 ms CreateObjectMapping: 0.255000 ms MarkObjects: 4.326700 ms  DeleteObjects: 3.196100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.586059 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5e5f1ca9c739ab27980374a6c3375') in 0.395383 seconds
+  Import took 0.404981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.093100 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d1b37837dd7eb9016d2c77df9b2f37') in 0.025495 seconds
+  Import took 0.034804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.190152 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a5dbabd50d2e29da7ad46b6be0eaef') in 0.025806 seconds
+  Import took 0.035312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.820882 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997b8afbca5e86e33bf3d35d6cc634ba') in 0.023778 seconds
+  Import took 0.033369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.220932 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffca88102f70d2da93966daaba29492') in 0.020413 seconds
+  Import took 0.029179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.627175 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6a332d47e3b27deeac64c0dc23c798') in 0.021767 seconds
+  Import took 0.030111 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.573 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 127.1 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3356.
+Total: 8.925200 ms (FindLiveObjects: 0.676000 ms CreateObjectMapping: 0.283800 ms MarkObjects: 4.530400 ms  DeleteObjects: 3.432400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.369345 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e566fe341143d551869a12d14cfaffc7') in 0.405964 seconds
+  Import took 0.414858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.250518 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0458e42a2b73cdb3956a64c85694d957') in 0.028223 seconds
+  Import took 0.040045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.622449 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2bb6e77c971d2c63a05b3dc2272050') in 0.023294 seconds
+  Import took 0.031926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.674053 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ec0caed0f32db016a091311b084da1') in 0.025078 seconds
+  Import took 0.034089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.169930 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2413ce18f3ba230f97a2993ee6fcb8') in 0.021675 seconds
+  Import took 0.030295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998987 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b21f01e8287f80391d6b4e5c27258aa') in 0.019824 seconds
+  Import took 0.028236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.052006 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccf73a6b660786bb3480803feb65288') in 0.020151 seconds
+  Import took 0.028277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.172273 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f724fe932e632fd6f8c0d518ba89bf90') in 0.022173 seconds
+  Import took 0.030283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624187 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e66fd7ea7abc0a91318f80bf0077ee') in 0.022669 seconds
+  Import took 0.031395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018665 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e66fd7ea7abc0a91318f80bf0077ee') in 0.020453 seconds
+  Import took 0.028499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.779 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 8.961600 ms (FindLiveObjects: 0.607800 ms CreateObjectMapping: 0.289600 ms MarkObjects: 4.947200 ms  DeleteObjects: 3.114600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.429980 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0738b27aba7014049205b53cfd011407') in 0.401396 seconds
+  Import took 0.411768 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.431 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3434.
+Total: 8.719800 ms (FindLiveObjects: 0.527400 ms CreateObjectMapping: 0.293400 ms MarkObjects: 4.755000 ms  DeleteObjects: 3.141600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.901 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3437.
+Total: 10.506200 ms (FindLiveObjects: 0.956300 ms CreateObjectMapping: 0.464900 ms MarkObjects: 6.036800 ms  DeleteObjects: 3.045200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.586763 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf56df1194b86a2aecc8abf8aa298d6') in 0.355726 seconds
+  Import took 0.365533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.497530 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d57e428f295747191cbe5bb8189f0f') in 0.027621 seconds
+  Import took 0.037569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.859357 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ed655f480b3282e444be20781cad3d') in 0.025069 seconds
+  Import took 0.033677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806772 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c50025906ed9cc64fc0d97000df4d10') in 0.026648 seconds
+  Import took 0.035018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.199189 seconds.
+  path: Assets/Low Poly Amusement Park/Models/Texture/lambert2SG1.mat
+  artifactKey: Guid(fe3d8c2c51dcd264893518e34c932e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Models/Texture/lambert2SG1.mat using Guid(fe3d8c2c51dcd264893518e34c932e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd8bb22109e67ff98b46404a483efce') in 0.102119 seconds
+  Import took 0.113721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.694757 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae137879541e9f40cf8d4ec1b943adc') in 0.028838 seconds
+  Import took 0.037761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.166309 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b82b594f29a20445eb73f4db880356') in 0.027809 seconds
+  Import took 0.037182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.791429 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ac6b0997960577ca77d15d5bce032') in 0.028554 seconds
+  Import took 0.036503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.627179 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f50162b5fab44c85acaae3e8f5e7149') in 0.030414 seconds
+  Import took 0.039521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.788853 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a81717faa56276b2418c1ca083d8d6') in 0.024040 seconds
+  Import took 0.033057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.780372 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce171dd84b2b1cb3921db199997910bc') in 0.024972 seconds
+  Import took 0.034366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.173017 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f54f08521e9fbae598fcd9253bd70f1') in 0.024965 seconds
+  Import took 0.033545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.808163 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a185f12579db2a11eb7f8e2c8c113f4a') in 0.027843 seconds
+  Import took 0.036377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.782721 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaa43d2c3e6080a66af864af287b0d4') in 0.027801 seconds
+  Import took 0.036280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.984430 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3227c543486c6c09001c7700e9fe8e4c') in 0.028916 seconds
+  Import took 0.037303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.621301 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093c5fccc367f1642499301501cfbff') in 0.024056 seconds
+  Import took 0.032194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.016630 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3454dce9cc38f8a942d48d4b6b4ad11') in 0.023878 seconds
+  Import took 0.032016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.631832 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fbaf72f4c4b5d5ce1bd3d2870812d9') in 0.021655 seconds
+  Import took 0.030365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.836451 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de8022738169e7243f1ece2a64014f8') in 0.023983 seconds
+  Import took 0.033534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.113754 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eabc75ceff1b5b9a1f11716f7519e1d') in 0.022578 seconds
+  Import took 0.030920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.134896 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22916cc29fdf1c9b62f87ff072716712') in 0.024042 seconds
+  Import took 0.033576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.236634 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e845ab52f367d0833ab4b62a9e0f66') in 0.024148 seconds
+  Import took 0.032229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.647393 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fcd9a380e9e853c2e2cc52dc72a4aa') in 0.026919 seconds
+  Import took 0.036987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.815414 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ccee3aa4276616289ad14118bc98d') in 0.025009 seconds
+  Import took 0.033856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779213 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de955991931fb3e149f6b173d00c7c5b') in 0.025033 seconds
+  Import took 0.033109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613126 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abba5fac4373ebd67485667867ef1e4') in 0.027453 seconds
+  Import took 0.036557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.564276 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b89bad0155c3d583239811de08c6f') in 0.023615 seconds
+  Import took 0.032529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 7.873800 ms (FindLiveObjects: 0.512200 ms CreateObjectMapping: 0.247400 ms MarkObjects: 4.326100 ms  DeleteObjects: 2.785800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.291 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 11.011000 ms (FindLiveObjects: 0.660000 ms CreateObjectMapping: 0.771900 ms MarkObjects: 5.842500 ms  DeleteObjects: 3.733900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.452 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 8.199700 ms (FindLiveObjects: 0.551000 ms CreateObjectMapping: 0.248500 ms MarkObjects: 4.440500 ms  DeleteObjects: 2.957700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.370 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3518.
+Total: 8.412800 ms (FindLiveObjects: 0.546700 ms CreateObjectMapping: 0.230200 ms MarkObjects: 4.827800 ms  DeleteObjects: 2.805900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.815855 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ed34f070857853519b996e99ccbd98') in 0.353646 seconds
+  Import took 0.363349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.640060 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55225d8c4b1130488169ea419a76f8bc') in 0.019993 seconds
+  Import took 0.028145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.231681 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab
+  artifactKey: Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/roller_coaster.prefab using Guid(ec43d84c24241fd4d8cd8a803092168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36988dd59364ca304274ee20d44f5efd') in 0.023201 seconds
+  Import took 0.032970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.797269 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3d73b4c5ae514da00629ec1d12ebc7') in 0.030493 seconds
+  Import took 0.039847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.734953 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4493d0c97bade0971b001d31bc90a') in 0.026828 seconds
+  Import took 0.034897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.817321 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea4ef11455c0a8e07cec75034b5dcac') in 0.026003 seconds
+  Import took 0.034111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604888 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe5d27afd8a9b6e831704ece96ae9e6') in 0.025620 seconds
+  Import took 0.035240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.238417 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913486af29a91ad53b30ceb740b47fbe') in 0.023308 seconds
+  Import took 0.032555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.197122 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8b8b5df5550451503ac221e5645a20') in 0.023158 seconds
+  Import took 0.031681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.566155 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2a85d5489760fc1accba416a1f52f1') in 0.022569 seconds
+  Import took 0.031528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.314504 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c872488ac403599b4461d57db71b09a8') in 0.024561 seconds
+  Import took 0.034652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.310609 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2decfe9ddc0d66190deff6a515843597') in 0.022420 seconds
+  Import took 0.031405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.989441 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889d52f58434aa23dc19ae8ee0ceabbc') in 0.023896 seconds
+  Import took 0.031881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.485735 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c6b989469473505daa4173f0aa7d68') in 0.024673 seconds
+  Import took 0.033138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.334762 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af44fd62dbe4a845141e5771d221e803') in 0.024474 seconds
+  Import took 0.033298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.122938 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aa0a3e7ba0b76a7f18debb1930aab9') in 0.026638 seconds
+  Import took 0.034859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.707618 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf81f0adf45ec24742c2a8e74d6f310') in 0.022576 seconds
+  Import took 0.031417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.062313 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2526e697e0b2072bf3e98a41cf62ab5') in 0.025183 seconds
+  Import took 0.033891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.733052 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82075f7b850c1d0fd03679afd7dd98bc') in 0.025284 seconds
+  Import took 0.034053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.537368 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227799782a20842f6b4efd093c02801a') in 0.026022 seconds
+  Import took 0.033877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.651101 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19232c24d15917267e6b36c8536c4ce4') in 0.027345 seconds
+  Import took 0.035787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.661295 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2028f79b60b3a82addae531d573bdacf') in 0.027239 seconds
+  Import took 0.035441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.635072 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c786486ff3997b5f801391edf1ef012') in 0.027675 seconds
+  Import took 0.036192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.939997 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e38e548a1380180063ce54fc08784cb') in 0.021695 seconds
+  Import took 0.029818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.605983 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db1e8f85f65b92893611141e5f0cc8f') in 0.025042 seconds
+  Import took 0.033401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.256893 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17332665e0a55bc28a510d9f9d718e7') in 0.023634 seconds
+  Import took 0.032786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.533372 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0ff834a21b5d00fc163fffb1738308') in 0.024472 seconds
+  Import took 0.033636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.246473 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c2b137c9dd8109ad11ddea111a9f78') in 0.022815 seconds
+  Import took 0.032348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.199794 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e291ad65d3c5518eed7906a172752689') in 0.022660 seconds
+  Import took 0.030954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.865173 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd3a18987863f2b3b232afd34ba7cc6') in 0.024148 seconds
+  Import took 0.032762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.231092 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba69ddf0074ca1379b42e3880281e89') in 0.027080 seconds
+  Import took 0.036144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.014915 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2621de73dcae37005013635277a77289') in 0.027243 seconds
+  Import took 0.035719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.054625 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98c7835d8e2a0f14c1a41ada5df86ba') in 0.023528 seconds
+  Import took 0.033587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.603574 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dccf71e1f182a9d7151da367d49edb') in 0.024321 seconds
+  Import took 0.033502 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.360 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3557.
+Total: 8.362200 ms (FindLiveObjects: 0.547400 ms CreateObjectMapping: 0.233400 ms MarkObjects: 4.778300 ms  DeleteObjects: 2.800700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.410566 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d121d406520021ea7a76f76d7c15ca') in 0.342705 seconds
+  Import took 0.351807 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.475 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3596.
+Total: 8.523300 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.225500 ms MarkObjects: 4.967200 ms  DeleteObjects: 2.767800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.981132 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ac92c0f59b3bfb3e94b2593a585976') in 0.372041 seconds
+  Import took 0.380346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.323 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3635.
+Total: 8.998100 ms (FindLiveObjects: 0.556800 ms CreateObjectMapping: 0.252100 ms MarkObjects: 4.841000 ms  DeleteObjects: 3.345800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.260986 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd46723c740a3bbf209bbc9164c75271') in 0.352031 seconds
+  Import took 0.362019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.594273 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75112037c4516f912dfe233a814e047e') in 0.028830 seconds
+  Import took 0.038419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570482 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e2cb47446d713470ce856b0a988efc') in 0.021682 seconds
+  Import took 0.030565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792632 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7d3ce91067add404c85fa4f91d16d1') in 0.025348 seconds
+  Import took 0.033597 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.372 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3674.
+Total: 10.228700 ms (FindLiveObjects: 0.579400 ms CreateObjectMapping: 0.230400 ms MarkObjects: 5.461600 ms  DeleteObjects: 3.954200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.711089 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7bcdb96d6ad466c704575356d3a704') in 0.342576 seconds
+  Import took 0.350907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.119849 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7bcdb96d6ad466c704575356d3a704') in 0.024812 seconds
+  Import took 0.032849 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.285 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3713.
+Total: 8.574400 ms (FindLiveObjects: 0.599400 ms CreateObjectMapping: 0.249900 ms MarkObjects: 5.005400 ms  DeleteObjects: 2.717600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.172798 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f50830b84fe4596722311d1f69ebfb7') in 0.333367 seconds
+  Import took 0.342457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.751664 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de3d20bfb9a4c26ae97463350877d55') in 0.024183 seconds
+  Import took 0.032343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.982752 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed09bc534ccb5f1727568ce29a50fb9e') in 0.022440 seconds
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.791235 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a5b0f2e1124f49531569446e4cc36') in 0.023734 seconds
+  Import took 0.032347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.068820 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942da1b7a03edb2d655df1da50a9baa0') in 0.025715 seconds
+  Import took 0.034039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.471236 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f91d957c2ab3a58d25bfe88a3e9afa') in 0.024783 seconds
+  Import took 0.034350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.726144 seconds.
+  path: Assets/Low Poly Amusement Park/Models
+  artifactKey: Guid(eb58cb19323b8a143b3baa3659633d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Models using Guid(eb58cb19323b8a143b3baa3659633d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e7f5d5425dfb1ed88bbffd003e9e19') in 0.007560 seconds
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003269 seconds.
+  path: Assets/Low Poly Amusement Park/Models
+  artifactKey: Guid(eb58cb19323b8a143b3baa3659633d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Models using Guid(eb58cb19323b8a143b3baa3659633d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e7f5d5425dfb1ed88bbffd003e9e19') in 0.006205 seconds
+  Import took 0.014417 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.338 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3752.
+Total: 8.517100 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.206200 ms MarkObjects: 4.947000 ms  DeleteObjects: 2.804100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.493903 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633ddc13df7c2aa889731344198c7a2') in 0.342983 seconds
+  Import took 0.351243 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3791.
+Total: 9.739800 ms (FindLiveObjects: 0.608600 ms CreateObjectMapping: 0.278300 ms MarkObjects: 4.974800 ms  DeleteObjects: 3.875900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.447581 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca45c2bed82564ab399ed8441e79615') in 0.344440 seconds
+  Import took 0.353238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.936406 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60af9bfe4cd26b619d1c1b6700381e7d') in 0.027107 seconds
+  Import took 0.037537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.411819 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6008bea52a45115133ce57a0f85aded9') in 0.023882 seconds
+  Import took 0.033144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996409 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0937c374cce57b6799dce0b45cd77e84') in 0.022917 seconds
+  Import took 0.031277 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.761 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3830.
+Total: 9.256100 ms (FindLiveObjects: 0.668200 ms CreateObjectMapping: 0.289500 ms MarkObjects: 5.159200 ms  DeleteObjects: 3.136300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.737 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 21.042100 ms (FindLiveObjects: 2.021100 ms CreateObjectMapping: 0.753600 ms MarkObjects: 11.615600 ms  DeleteObjects: 6.646200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 649.852417 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff10bd31b0609100f78f35ce3c05b01c') in 0.497033 seconds
+  Import took 0.511077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.788442 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba43f0d397bd7941cbeeb14893881d5') in 0.030019 seconds
+  Import took 0.040593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.724907 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbafb0b443ccaeac96d948d07a8b9f47') in 0.035650 seconds
+  Import took 0.045217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.886697 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239bd0d82f80d929657544797878a3dc') in 0.025292 seconds
+  Import took 0.034102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.152846 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16702227d4079e2807dba74d0a609969') in 0.030119 seconds
+  Import took 0.040974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.778020 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb7838e335bf697d94385757cb35ed7') in 0.065011 seconds
+  Import took 0.088319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.829754 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f3e56cae9d3c24672393928e70c63a') in 0.029777 seconds
+  Import took 0.038430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.752901 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c9637d0bf225784d6b192671745a6') in 0.058787 seconds
+  Import took 0.078029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.719527 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd74d4c21cf3b098242478db94abbcb') in 0.039517 seconds
+  Import took 0.055722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.424077 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb2a08d3ccd4e4a23860ad832dd8702') in 0.045169 seconds
+  Import took 0.057702 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3872.
+Total: 11.003700 ms (FindLiveObjects: 0.715200 ms CreateObjectMapping: 0.360200 ms MarkObjects: 6.171400 ms  DeleteObjects: 3.753900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.533283 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfed014e1e153e3d5709230a6bef00a0') in 0.485569 seconds
+  Import took 0.497997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.692 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.8 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 9.656200 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.343900 ms MarkObjects: 5.582100 ms  DeleteObjects: 3.057100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.218680 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7904141778015bc489299406e7ca914') in 0.539968 seconds
+  Import took 0.553908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.932582 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f185eb57d81f6c88d6c2729a7605f3') in 0.060303 seconds
+  Import took 0.083226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.239419 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d1035323601b401559ef738b02c94d') in 0.040311 seconds
+  Import took 0.056251 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.326 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3950.
+Total: 12.603300 ms (FindLiveObjects: 0.846100 ms CreateObjectMapping: 0.594900 ms MarkObjects: 7.045400 ms  DeleteObjects: 4.113400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.292707 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1 Variant.prefab
+  artifactKey: Guid(443343c019550b3499a26ad13191c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1 Variant.prefab using Guid(443343c019550b3499a26ad13191c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62910331a3397be999f055e4355545bb') in 0.483735 seconds
+  Import took 0.496961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.415 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3989.
+Total: 10.550300 ms (FindLiveObjects: 0.656600 ms CreateObjectMapping: 0.252300 ms MarkObjects: 5.798100 ms  DeleteObjects: 3.840600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.103652 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e16f2f9da3eb78e28d07e0cc6ff9702') in 0.707885 seconds
+  Import took 0.723871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.552679 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ec6fa7eebd04b65338bc22c32c1761') in 0.031896 seconds
+  Import took 0.042074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.504567 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb81352822805a9750f974166db05be') in 0.061360 seconds
+  Import took 0.160018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.339 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 10.171100 ms (FindLiveObjects: 0.740900 ms CreateObjectMapping: 0.270000 ms MarkObjects: 5.751700 ms  DeleteObjects: 3.405700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.465574 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a69e9daa81e4acef402789bf6780f2') in 0.637858 seconds
+  Import took 0.658585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285913 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c163aa9236f4c4128f897e31006d06') in 0.021762 seconds
+  Import took 0.029934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.952065 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/ferris.prefab
+  artifactKey: Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/ferris.prefab using Guid(4224fed8aa4f0d540a379c0771999278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afce9ec0e88669c00e0f14c803ec90b') in 0.028380 seconds
+  Import took 0.039472 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.646 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4067.
+Total: 11.468200 ms (FindLiveObjects: 0.769400 ms CreateObjectMapping: 0.295400 ms MarkObjects: 7.009100 ms  DeleteObjects: 3.391500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.570127 seconds.
+  path: Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab
+  artifactKey: Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Amusement Park/Prefab/Ferris 1.prefab using Guid(b9d655b0f90ddb44188706bb4b7365e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc46fdd35a4c65bad10757933a19b503') in 0.415153 seconds
+  Import took 0.425445 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.445 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4106.
+Total: 13.541200 ms (FindLiveObjects: 0.947900 ms CreateObjectMapping: 0.358400 ms MarkObjects: 8.123800 ms  DeleteObjects: 4.108300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
