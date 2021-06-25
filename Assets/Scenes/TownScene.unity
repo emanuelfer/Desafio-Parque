@@ -14130,10 +14130,32 @@ MonoBehaviour:
     weight: 1
   bigStructuresPrefabs:
   - prefab: {fileID: 2620026419681615056, guid: b9d655b0f90ddb44188706bb4b7365e1, type: 3}
-    weight: 0
+    weight: 1
   - prefab: {fileID: 7590020696203606111, guid: 4baab2d89f3ecbd49b637234012f7166, type: 3}
-    weight: 0
+    weight: 1
   - prefab: {fileID: 5496812227470892808, guid: 61531d9d43433e94684e1fe919d84060, type: 3}
+    weight: 1
+  - prefab: {fileID: 8727414513257873404, guid: 6e238a758f08eee4499f1e754ba1fb3e, type: 3}
+    weight: 1
+  - prefab: {fileID: 1293685904561915224, guid: 8d63df8aaa8f2bb45953dc40b41ac8ef, type: 3}
+    weight: 1
+  - prefab: {fileID: 378556036223792604, guid: 3a3053e27021bb348b70c89af70d6524, type: 3}
+    weight: 1
+  - prefab: {fileID: 4800227641561882094, guid: a4e37adf93c7d2b41824fa1bcadf444d, type: 3}
+    weight: 1
+  - prefab: {fileID: 613114312947304226, guid: 52034e6a0a4a4944699b0df14b8f06f5, type: 3}
+    weight: 1
+  - prefab: {fileID: 6417808341337305589, guid: 0a487cedf4264ce42a5e3d097fcd9197, type: 3}
+    weight: 1
+  - prefab: {fileID: 3929326807569401474, guid: 4d1bd64c0915ef349a3626aea26f0694, type: 3}
+    weight: 1
+  - prefab: {fileID: 7532393665864381387, guid: f226b9c3fef5e2a4c8b65616fc552490, type: 3}
+    weight: 1
+  - prefab: {fileID: 4178256022266335762, guid: 703f5d4e6ba1e8f4ea7a48a7d4a9c36e, type: 3}
+    weight: 1
+  - prefab: {fileID: 2816840515013631880, guid: de01f58f6e5f3c24484679930dd76156, type: 3}
+    weight: 1
+  - prefab: {fileID: 5308396055301786309, guid: fb0df684e21cf2e45963daf231f9d059, type: 3}
     weight: 1
   placementManeger: {fileID: 2136393114}
 --- !u!4 &1397681939

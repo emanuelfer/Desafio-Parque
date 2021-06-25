@@ -59,31 +59,21 @@ public class PlacementManager : MonoBehaviour
     public void DestroyStructureAt(Vector3Int position)
     {
         if (!CheckIfPositionIsFree(position)) {
+            List<Vector3Int> positions = new List<Vector3Int>();
 
             foreach (var item in structureDictionary)
             {
-                if (item.Key == position)
+                if (item.Value.Equals(structureDictionary[position]))
                 {
-                    
+                    placementGrid[item.Key.x, item.Key.z] = CellType.Empty;
                     Destroy(item.Value.gameObject);
+                    positions.Add(item.Key);
                 }   
             }
-            int width, height;
 
-            if (placementGrid[position.x, position.z].Equals(CellType.BigStructure))
-                width = height = 2;
-            else
-                width = height = 1;
-
-            for (int x = 0; x < width; x++)
+            foreach (var item in positions)
             {
-                for (int z = 0; z < height; z++)
-                {
-                    var newPosition = position + new Vector3Int(x, 0, z);
-                    Debug.Log(position);
-                    placementGrid[newPosition.x, newPosition.z] = CellType.Empty;
-                    structureDictionary.Remove(newPosition);
-                }
+                structureDictionary.Remove(item);
             }
             
         }
