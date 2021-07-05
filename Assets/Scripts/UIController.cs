@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement, OnDestroyStrcuture;
-    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, destroyStructure;
+    public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement;
+    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton;
 
     public Color outlineColor;
     List<Button> buttonList;

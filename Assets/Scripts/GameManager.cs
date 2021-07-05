@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public RoadManager roadManager;
     public InputManager inputManager;
     public UIController uiController;
+    public Canvas2Controller canvas2Conotreller;
 
     public StructureManager structureManager;
 
@@ -19,6 +20,23 @@ public class GameManager : MonoBehaviour
         uiController.OnHousePlacement += HousePlacementHandler;
         uiController.OnSpecialPlacement += SpecialPlacementHandler;
         uiController.OnBigStructurePlacement += BigStructurePlacementHandler;
+
+        canvas2Conotreller.OnSecurityPlacement += PeoplePlacementHandler;
+        canvas2Conotreller.OnCarPlacement += CarPlacementHandler;
+        canvas2Conotreller.OnDinoPlacement += DinoPlacementHandler;
+
+    }
+
+    private void DinoPlacementHandler()
+    {
+        ClearInputActions();
+        inputManager.OnMouseClick += structureManager.PlaceDino;
+    }
+
+    private void CarPlacementHandler()
+    {
+        ClearInputActions();
+        inputManager.OnMouseClick += structureManager.PlaceCar;
     }
 
     private void BigStructurePlacementHandler()
@@ -47,6 +65,12 @@ public class GameManager : MonoBehaviour
         inputManager.OnMouseHold += roadManager.PlaceRoad;
         inputManager.OnMouseUp += roadManager.FinishPlacingRoad;
         inputManager.OnMouseClick += roadManager.PlaceRoad;
+    }
+
+    private void PeoplePlacementHandler()
+    {
+        ClearInputActions();
+        inputManager.OnMouseClick += structureManager.PlacePeople;
     }
 
     private void ClearInputActions()

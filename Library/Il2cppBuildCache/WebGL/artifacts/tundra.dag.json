@@ -36,6 +36,7 @@
       "Inputs": [
         "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed",
         "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed/Boxophobic.Utils.Scripts.dll",
         "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed/Mono.Security.dll",
         "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed/mscorlib.dll",
         "C:/Users/emanu/Desafio Disney/Temp/StagingArea/Data/Managed/System.Configuration.dll",

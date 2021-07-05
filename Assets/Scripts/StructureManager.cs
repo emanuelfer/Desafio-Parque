@@ -7,16 +7,29 @@ using UnityEngine;
 
 public class StructureManager : MonoBehaviour
 {
-    public StructurePrefabWeighted[] housePrefabs, specialPrefabs, bigStructuresPrefabs;
+    public StructurePrefabWeighted[] housePrefabs, specialPrefabs, bigStructuresPrefabs, peoplePrefabs, carPrefabs, dinoPrefabs;
     public PlacementManager placementManeger;
 
-    private float[] houseWeights, specialWeights, bigStructuresWeights;
+    private float[] houseWeights, specialWeights, bigStructuresWeights, peobleWeights, carWeights, dinoWeights;
 
     private void Start()
     {
         houseWeights = housePrefabs.Select(prefabStats => prefabStats.weight).ToArray();
         specialWeights = specialPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
         bigStructuresWeights = bigStructuresPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+        peobleWeights = peoplePrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+        carWeights = carPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+        dinoWeights = dinoPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+    }
+
+    internal void PlaceCar(Vector3Int position)
+    {
+        if (placementManeger.CheckIfPositionIsRoad(position))
+        {
+            int randomIndex = GetRandomWeightedIndex(carWeights);
+            placementManeger.PlaceObjectOnTheMap(position, carPrefabs[randomIndex].prefab, CellType.Car);
+            AudioPlayer.instance.PlayPlacementSound();
+        }
     }
 
     public void PlaceHouse(Vector3Int position)
@@ -73,6 +86,25 @@ public class StructureManager : MonoBehaviour
         {
             int randomIndex = GetRandomWeightedIndex(specialWeights);
             placementManeger.PlaceObjectOnTheMap(position, specialPrefabs[randomIndex].prefab, CellType.Structure);
+            AudioPlayer.instance.PlayPlacementSound();
+        }
+    }
+
+    public void PlacePeople(Vector3Int position)
+    {
+        if (placementManeger.CheckIfPositionIsFree(position))
+        {
+            int randomIndex = GetRandomWeightedIndex(peobleWeights);
+            placementManeger.PlaceObjectOnTheMap(position, peoplePrefabs[randomIndex].prefab, CellType.Structure);
+            AudioPlayer.instance.PlayPlacementSound();
+        }
+    }
+    public void PlaceDino(Vector3Int position)
+    {
+        if (placementManeger.CheckIfPositionIsFree(position))
+        {
+            int randomIndex = GetRandomWeightedIndex(dinoWeights);
+            placementManeger.PlaceObjectOnTheMap(position, dinoPrefabs[randomIndex].prefab, CellType.Structure);
             AudioPlayer.instance.PlayPlacementSound();
         }
     }

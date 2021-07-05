@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{DCE08AD6-23A3-A80E-F5AC-A60CC27865F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{3222D601-E5A5-A33C-2E46-29E25B666C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{671A02AC-E2B7-D6FD-2792-F1A704041D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{E56D1BE2-9FD4-364F-D703-E97AB3FB44E7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{C7DB7A1E-B824-E868-CCF2-9FB4E530E081}"
 EndProject
 Global
@@ -15,6 +21,18 @@ Global
 		{DCE08AD6-23A3-A80E-F5AC-A60CC27865F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE08AD6-23A3-A80E-F5AC-A60CC27865F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE08AD6-23A3-A80E-F5AC-A60CC27865F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3222D601-E5A5-A33C-2E46-29E25B666C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3222D601-E5A5-A33C-2E46-29E25B666C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3222D601-E5A5-A33C-2E46-29E25B666C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3222D601-E5A5-A33C-2E46-29E25B666C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671A02AC-E2B7-D6FD-2792-F1A704041D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671A02AC-E2B7-D6FD-2792-F1A704041D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671A02AC-E2B7-D6FD-2792-F1A704041D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671A02AC-E2B7-D6FD-2792-F1A704041D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56D1BE2-9FD4-364F-D703-E97AB3FB44E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56D1BE2-9FD4-364F-D703-E97AB3FB44E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56D1BE2-9FD4-364F-D703-E97AB3FB44E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56D1BE2-9FD4-364F-D703-E97AB3FB44E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7DB7A1E-B824-E868-CCF2-9FB4E530E081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7DB7A1E-B824-E868-CCF2-9FB4E530E081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7DB7A1E-B824-E868-CCF2-9FB4E530E081}.Release|Any CPU.ActiveCfg = Release|Any CPU

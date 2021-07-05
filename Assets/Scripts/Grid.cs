@@ -53,6 +53,7 @@ public enum CellType
     Structure,
     SpecialStructure,
     BigStructure,
+    Car,
     None
 }
 

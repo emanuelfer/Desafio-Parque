@@ -85,6 +85,11 @@ public class PlacementManager : MonoBehaviour
         return CheckIfPositionIsOfType(posistion, CellType.Empty);
     }
 
+    internal bool CheckIfPositionIsRoad(Vector3Int posistion)
+    {
+        return CheckIfPositionIsOfType(posistion, CellType.Road);
+    }
+
     internal void PlaceTemporaryStructure(Vector3Int position, GameObject structurePrefab, CellType type)
     {
         placementGrid[position.x, position.z] = type;
