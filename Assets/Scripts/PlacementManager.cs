@@ -10,6 +10,7 @@ public class PlacementManager : MonoBehaviour
 
     private Dictionary<Vector3Int, StructureModel> temporaryRoadobjects = new Dictionary<Vector3Int, StructureModel>();
     private Dictionary<Vector3Int, StructureModel> structureDictionary = new Dictionary<Vector3Int, StructureModel>();
+    private Dictionary<Vector3Int, StructureModel> structureDictionaryCar = new Dictionary<Vector3Int, StructureModel>();
 
     private void Start()
     {
@@ -34,22 +35,37 @@ public class PlacementManager : MonoBehaviour
     {
         StructureModel structure = CreateANewStructureModel(position, structurePrefab, type);
 
-        if(structureDictionary[position].yRotation == 0 || structureDictionary[position].yRotation == 180)
+        if(type == CellType.Cop || type == CellType.Car)
         {
-            structure.SwapModel(structurePrefab, Quaternion.Euler(0, 90, 0));
-        }
-
-        for (int x = 0; x < width; x++)
-        {
-            for (int z = 0; z < height; z++)
+            if(placementGrid[position.x, position.z] == CellType.Road)
             {
-                var newPosition = position + new Vector3Int(x, 0, z);
-                placementGrid[newPosition.x, newPosition.z] = type;
-                structureDictionary.Add(newPosition, structure);
-                DestroyNatureAt(newPosition);
+                if (structureDictionary[position].yRotation == 0 || structureDictionary[position].yRotation == 180)
+                {
+                    structure.SwapModel(structurePrefab, Quaternion.Euler(0, 90, 0));
+                }
+
+                placementGrid[position.x, position.z] = CellType.RoadWithCar;
+                structureDictionaryCar.Add(position, structure);
+            }
+            else if(type == CellType.Cop)
+            {
+                placementGrid[position.x, position.z] = type;
+                structureDictionaryCar.Add(position, structure);
             }
         }
-
+        else
+        {
+            for (int x = 0; x < width; x++)
+            {
+                for (int z = 0; z < height; z++)
+                {
+                    var newPosition = position + new Vector3Int(x, 0, z);
+                    placementGrid[newPosition.x, newPosition.z] = type;
+                    structureDictionary.Add(newPosition, structure);
+                    DestroyNatureAt(newPosition);
+                }
+            }
+        }
     }
 
     private void DestroyNatureAt(Vector3Int position)
@@ -66,13 +82,30 @@ public class PlacementManager : MonoBehaviour
         if (!CheckIfPositionIsFree(position)) {
             List<Vector3Int> positions = new List<Vector3Int>();
 
+            if(placementGrid[position.x, position.z] == CellType.Cop)
+            {
+                Destroy(structureDictionaryCar[position].gameObject);
+                structureDictionaryCar.Remove(position);
+                placementGrid[position.x, position.z] = CellType.Empty;
+                return;
+            }
+
             foreach (var item in structureDictionary)
             {
                 if (item.Value.Equals(structureDictionary[position]))
                 {
-                    placementGrid[item.Key.x, item.Key.z] = CellType.Empty;
-                    Destroy(item.Value.gameObject);
-                    positions.Add(item.Key);
+                    if(placementGrid[item.Key.x, item.Key.z] == CellType.RoadWithCar)
+                    {
+                        Destroy(structureDictionaryCar[position].gameObject);
+                        structureDictionaryCar.Remove(position);
+                        placementGrid[item.Key.x, item.Key.z] = CellType.Road;
+                    }
+                    else
+                    {
+                        placementGrid[item.Key.x, item.Key.z] = CellType.Empty;
+                        Destroy(item.Value.gameObject);
+                        positions.Add(item.Key);
+                    }
                 }   
             }
 

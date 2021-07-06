@@ -54,6 +54,8 @@ public enum CellType
     SpecialStructure,
     BigStructure,
     Car,
+    Cop,
+    RoadWithCar,
     None
 }
 

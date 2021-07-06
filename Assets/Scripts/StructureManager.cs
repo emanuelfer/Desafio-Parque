@@ -7,10 +7,10 @@ using UnityEngine;
 
 public class StructureManager : MonoBehaviour
 {
-    public StructurePrefabWeighted[] housePrefabs, specialPrefabs, bigStructuresPrefabs, peoplePrefabs, carPrefabs, dinoPrefabs;
+    public StructurePrefabWeighted[] housePrefabs, specialPrefabs, bigStructuresPrefabs, peoplePrefabs, carPrefabs, copPrefabs;
     public PlacementManager placementManeger;
 
-    private float[] houseWeights, specialWeights, bigStructuresWeights, peobleWeights, carWeights, dinoWeights;
+    private float[] houseWeights, specialWeights, bigStructuresWeights, peobleWeights, carWeights, copWeights;
 
     private void Start()
     {
@@ -19,7 +19,7 @@ public class StructureManager : MonoBehaviour
         bigStructuresWeights = bigStructuresPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
         peobleWeights = peoplePrefabs.Select(prefabStats => prefabStats.weight).ToArray();
         carWeights = carPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
-        dinoWeights = dinoPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+        copWeights = copPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
     }
 
     internal void PlaceCar(Vector3Int position)
@@ -99,12 +99,12 @@ public class StructureManager : MonoBehaviour
             AudioPlayer.instance.PlayPlacementSound();
         }
     }
-    public void PlaceDino(Vector3Int position)
+    public void PlaceCop(Vector3Int position)
     {
-        if (placementManeger.CheckIfPositionIsFree(position))
+        if (placementManeger.CheckIfPositionIsRoad(position) || placementManeger.CheckIfPositionIsFree(position))
         {
-            int randomIndex = GetRandomWeightedIndex(dinoWeights);
-            placementManeger.PlaceObjectOnTheMap(position, dinoPrefabs[randomIndex].prefab, CellType.Structure);
+            int randomIndex = GetRandomWeightedIndex(copWeights);
+            placementManeger.PlaceObjectOnTheMap(position, copPrefabs[randomIndex].prefab, CellType.Cop);
             AudioPlayer.instance.PlayPlacementSound();
         }
     }
