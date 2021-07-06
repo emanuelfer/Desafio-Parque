@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEngine.Rendering.DebugUI;
 
 public class InputManager : MonoBehaviour
 {
@@ -12,8 +13,6 @@ public class InputManager : MonoBehaviour
 
 	public StructureManager structureManager;
 	public Canvas canvas;
-	public Canvas canvas2;
-
 
 	[SerializeField]
 	Camera mainCamera;
@@ -32,21 +31,7 @@ public class InputManager : MonoBehaviour
 		CheckClickHoldEvent();
 		CheckArrowInput();
 		CheckClickRightEvent();
-		CheckPanelButtonEvent();
 
-	}
-
-    private void CheckPanelButtonEvent()
-    {
-		if (Input.GetKeyDown(KeyCode.Alpha1) && canvas.enabled == false)
-			canvas.enabled = true;
-		else if (Input.GetKeyDown(KeyCode.Alpha1) && canvas.enabled == true)
-			canvas.enabled = false;
-
-		if (Input.GetKeyDown(KeyCode.Alpha2) && canvas2.enabled == false)
-			canvas2.enabled = true;
-		else if (Input.GetKeyDown(KeyCode.Alpha2) && canvas2.enabled == true)
-			canvas2.enabled = false;
 	}
 
     private Vector3Int? RaycastGround()

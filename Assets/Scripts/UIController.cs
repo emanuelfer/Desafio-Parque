@@ -7,10 +7,13 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement;
-    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton;
+    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, buildBtn, insertBtn;
 
     public Action OnCarPlacement, OnCopPlacement, OnSecurityPlacement;
     public Button PlaceCarButton, PlaceCopPlacement, PlaceSecurityButton;
+
+    public GameObject buildMenu;
+    public GameObject insertMenu;
 
     public Color outlineColor;
     List<Button> buttonList;
@@ -18,7 +21,7 @@ public class UIController : MonoBehaviour
     private void Start()
     {
 
-        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, PlaceCarButton, PlaceCopPlacement, PlaceSecurityButton };
+        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, PlaceCarButton, PlaceCopPlacement, PlaceSecurityButton, buildBtn, insertBtn };
         placeRoadButton.onClick.AddListener(() =>
         {
             ResetButtonColor();
@@ -66,6 +69,22 @@ public class UIController : MonoBehaviour
             ResetButtonColor();
             ModifyOutline(PlaceSecurityButton);
             OnSecurityPlacement?.Invoke();
+        });
+
+        buildBtn.onClick.AddListener(() =>
+        {
+            if(buildMenu.activeSelf == true)
+                buildMenu.SetActive(false);
+            else
+                buildMenu.SetActive(true);
+        });
+
+        insertBtn.onClick.AddListener(() =>
+        {
+            if (insertMenu.activeSelf == true)
+                insertMenu.SetActive(false);
+            else
+                insertMenu.SetActive(true);
         });
 
     }
