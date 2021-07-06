@@ -34,6 +34,11 @@ public class PlacementManager : MonoBehaviour
     {
         StructureModel structure = CreateANewStructureModel(position, structurePrefab, type);
 
+        if(structureDictionary[position].yRotation == 0 || structureDictionary[position].yRotation == 180)
+        {
+            structure.SwapModel(structurePrefab, Quaternion.Euler(0, 90, 0));
+        }
+
         for (int x = 0; x < width; x++)
         {
             for (int z = 0; z < height; z++)
