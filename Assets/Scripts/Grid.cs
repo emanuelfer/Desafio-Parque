@@ -46,6 +46,7 @@ public class Point
     }
 }
 
+
 public enum CellType
 {
     Empty,
@@ -58,6 +59,8 @@ public enum CellType
     RoadWithCar,
     None
 }
+
+
 
 public class Grid
 {

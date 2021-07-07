@@ -51,6 +51,7 @@ public class PlacementManager : MonoBehaviour
             {
                 placementGrid[position.x, position.z] = type;
                 structureDictionaryCar.Add(position, structure);
+                DestroyNatureAt(position);
             }
         }
         else

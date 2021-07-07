@@ -76,15 +76,23 @@ public class UIController : MonoBehaviour
             if(buildMenu.activeSelf == true)
                 buildMenu.SetActive(false);
             else
+            {
+                insertMenu.SetActive(false);
                 buildMenu.SetActive(true);
+            }
         });
 
         insertBtn.onClick.AddListener(() =>
         {
             if (insertMenu.activeSelf == true)
+            {
                 insertMenu.SetActive(false);
+            }
             else
+            {
                 insertMenu.SetActive(true);
+                buildMenu.SetActive(false);
+            } 
         });
 
     }

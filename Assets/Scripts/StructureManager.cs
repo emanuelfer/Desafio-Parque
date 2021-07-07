@@ -148,7 +148,8 @@ public class StructureManager : MonoBehaviour
 
     private bool RoadCheck(Vector3Int position)
     {
-        if (placementManeger.GetNeighboursOfTypeFor(position, CellType.Road).Count <= 0)
+        if (placementManeger.GetNeighboursOfTypeFor(position, CellType.Road).Count <= 0 &&
+            placementManeger.GetNeighboursOfTypeFor(position, CellType.RoadWithCar).Count <= 0)
         {
             Debug.Log("Must be place near a road!");
             return false;
