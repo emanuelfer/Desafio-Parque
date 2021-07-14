@@ -24,6 +24,14 @@ public class GameManager : MonoBehaviour
         uiController.OnCarPlacement += CarPlacementHandler;
         uiController.OnCopPlacement += CopPlacementHandler;
 
+        uiController.OnRemoveStructure += RemoveStructureHandler;
+
+    }
+
+    private void RemoveStructureHandler()
+    {
+        ClearInputActions();
+        inputManager.OnMouseClick += structureManager.DestroyStrucutre;
     }
 
     private void CopPlacementHandler()

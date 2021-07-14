@@ -24,7 +24,7 @@ public class InputManager : MonoBehaviour
 		get { return cameraMovementVector; }
 	}
 
-	private void Update()
+    private void Update()
 	{
 		CheckClickDownEvent();
 		CheckClickUpEvent();

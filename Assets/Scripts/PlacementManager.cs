@@ -33,18 +33,28 @@ public class PlacementManager : MonoBehaviour
 
     internal void PlaceObjectOnTheMap(Vector3Int position, GameObject structurePrefab, CellType type, int width=1, int height = 1)
     {
-        StructureModel structure = CreateANewStructureModel(position, structurePrefab, type);
+        StructureModel structure;
 
-        if(type == CellType.Cop || type == CellType.Car)
+        if (structureDictionaryCar.ContainsKey(position))
+        {
+            return;
+        }
+        else
+        {
+            structure = CreateANewStructureModel(position, structurePrefab, type);
+        }
+
+        if (type == CellType.Cop || type == CellType.Car)
         {
             if(placementGrid[position.x, position.z] == CellType.Road)
             {
+
                 if (structureDictionary[position].yRotation == 0 || structureDictionary[position].yRotation == 180)
                 {
                     structure.SwapModel(structurePrefab, Quaternion.Euler(0, 90, 0));
                 }
 
-                placementGrid[position.x, position.z] = CellType.RoadWithCar;
+                //placementGrid[position.x, position.z] = CellType.Road;
                 structureDictionaryCar.Add(position, structure);
             }
             else if(type == CellType.Cop)
@@ -83,11 +93,10 @@ public class PlacementManager : MonoBehaviour
         if (!CheckIfPositionIsFree(position)) {
             List<Vector3Int> positions = new List<Vector3Int>();
 
-            if(placementGrid[position.x, position.z] == CellType.Cop)
+            if(structureDictionaryCar.ContainsKey(position))
             {
                 Destroy(structureDictionaryCar[position].gameObject);
                 structureDictionaryCar.Remove(position);
-                placementGrid[position.x, position.z] = CellType.Empty;
                 return;
             }
 
@@ -95,18 +104,9 @@ public class PlacementManager : MonoBehaviour
             {
                 if (item.Value.Equals(structureDictionary[position]))
                 {
-                    if(placementGrid[item.Key.x, item.Key.z] == CellType.RoadWithCar)
-                    {
-                        Destroy(structureDictionaryCar[position].gameObject);
-                        structureDictionaryCar.Remove(position);
-                        placementGrid[item.Key.x, item.Key.z] = CellType.Road;
-                    }
-                    else
-                    {
-                        placementGrid[item.Key.x, item.Key.z] = CellType.Empty;
-                        Destroy(item.Value.gameObject);
-                        positions.Add(item.Key);
-                    }
+                    placementGrid[item.Key.x, item.Key.z] = CellType.Empty;
+                    Destroy(item.Value.gameObject);
+                    positions.Add(item.Key);
                 }   
             }
 

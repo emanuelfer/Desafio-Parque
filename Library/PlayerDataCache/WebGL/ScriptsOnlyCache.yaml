@@ -98,6 +98,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -883,7 +887,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: ab2eaa894489a7dfdedd1d6d10a151c1
+      Hash: 55a16ba1da11d187c4b04852237639ee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIController

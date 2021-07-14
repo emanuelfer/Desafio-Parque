@@ -1,0 +1,143 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UIController : MonoBehaviour
+{
+    public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement, OnRemoveStructure;
+    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, buildBtn, insertBtn, removeBtn;
+
+    public Action OnCarPlacement, OnCopPlacement, OnSecurityPlacement;
+    public Button placeCarButton, placeCopPlacement, placeSecurityButton;
+
+    public GameObject menu;
+    public GameObject buildMenu;
+    public GameObject insertMenu;
+
+    public Canvas canvas;
+
+    public Color outlineColor;
+    List<Button> buttonList;
+    List<Button> buttonMenuList;
+
+    private void Start()
+    {
+        float y = canvas.GetComponent<RectTransform>().rect.height - menu.GetComponent<RectTransform>().rect.height;
+        //menu.GetComponent<RectTransform>().localPosition = new Vector3(-400, y, 0);
+        Debug.Log(menu.GetComponent<RectTransform>().rect.height);
+
+        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, placeCarButton,
+            placeCopPlacement, placeSecurityButton};
+
+        buttonMenuList = new List<Button> { buildBtn, insertBtn, removeBtn };
+
+        placeRoadButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeRoadButton);
+            OnRoadPlacement?.Invoke();
+        });
+
+        placeHouseButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeHouseButton);
+            OnHousePlacement?.Invoke();
+        });
+
+        placeSpecialButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeSpecialButton);
+            OnSpecialPlacement?.Invoke();
+        });
+
+        placeBigStructureButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeBigStructureButton);
+            OnBigStructurePlacement?.Invoke();
+        });
+
+        placeCarButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeCarButton);
+            OnCarPlacement?.Invoke();
+        });
+
+        placeCopPlacement.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeCopPlacement);
+            OnCopPlacement?.Invoke();
+        });
+
+        placeSecurityButton.onClick.AddListener(() =>
+        {
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeSecurityButton);
+            OnSecurityPlacement?.Invoke();
+        });
+
+        removeBtn.onClick.AddListener(() =>
+        {
+            insertMenu.SetActive(false);
+            buildMenu.SetActive(false);
+            ResetButtonColor(buttonMenuList);
+            ModifyOutline(removeBtn);
+            OnRemoveStructure?.Invoke();
+        });
+
+        buildBtn.onClick.AddListener(() =>
+        {
+            if(buildMenu.activeSelf == true)
+            {
+                ResetButtonColor(buttonMenuList);
+                buildMenu.SetActive(false);
+
+            }
+            else
+            {
+                ResetButtonColor(buttonMenuList);
+                ModifyOutline(buildBtn);
+                insertMenu.SetActive(false);
+                buildMenu.SetActive(true);
+            }
+        });
+
+        insertBtn.onClick.AddListener(() =>
+        {
+            if (insertMenu.activeSelf == true)
+            {
+                ResetButtonColor(buttonMenuList);
+                insertMenu.SetActive(false);
+            }
+            else
+            {
+                ResetButtonColor(buttonMenuList);
+                ModifyOutline(insertBtn);
+                insertMenu.SetActive(true);
+                buildMenu.SetActive(false);
+            } 
+        });
+
+    }
+
+    private void ModifyOutline(Button button)
+    {
+        var outline = button.GetComponent<Outline>();
+        outline.effectColor = outlineColor;
+        outline.enabled = true;
+    }
+
+    private void ResetButtonColor(List<Button> buttonList)
+    {
+        foreach(Button button in buttonList)
+        {
+            button.GetComponent<Outline>().enabled = false;
+        }
+    }
+}

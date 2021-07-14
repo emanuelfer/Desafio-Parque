@@ -1,82 +1,108 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement;
-    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, buildBtn, insertBtn;
+    public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement, OnRemoveStructure;
+    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, buildBtn, insertBtn, removeBtn;
 
     public Action OnCarPlacement, OnCopPlacement, OnSecurityPlacement;
-    public Button PlaceCarButton, PlaceCopPlacement, PlaceSecurityButton;
+    public Button placeCarButton, placeCopPlacement, placeSecurityButton, printScreenButton, endGameButton;
 
+    public GameObject menu;
     public GameObject buildMenu;
     public GameObject insertMenu;
+    public GameObject printScreenMenu;
+    public GameObject gameOver;
+
+    public Canvas canvas;
 
     public Color outlineColor;
     List<Button> buttonList;
+    List<Button> buttonMenuList;
 
     private void Start()
     {
+        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, placeCarButton,
+            placeCopPlacement, placeSecurityButton};
 
-        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, PlaceCarButton, PlaceCopPlacement, PlaceSecurityButton, buildBtn, insertBtn };
+        buttonMenuList = new List<Button> { buildBtn, insertBtn, removeBtn };
+
         placeRoadButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
+            ResetButtonColor(buttonList);
             ModifyOutline(placeRoadButton);
             OnRoadPlacement?.Invoke();
         });
 
         placeHouseButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
+            ResetButtonColor(buttonList);
             ModifyOutline(placeHouseButton);
             OnHousePlacement?.Invoke();
         });
 
         placeSpecialButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
+            ResetButtonColor(buttonList);
             ModifyOutline(placeSpecialButton);
             OnSpecialPlacement?.Invoke();
         });
 
         placeBigStructureButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
+            ResetButtonColor(buttonList);
             ModifyOutline(placeBigStructureButton);
             OnBigStructurePlacement?.Invoke();
         });
 
-        PlaceCarButton.onClick.AddListener(() =>
+        placeCarButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
-            ModifyOutline(PlaceCarButton);
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeCarButton);
             OnCarPlacement?.Invoke();
         });
 
-        PlaceCopPlacement.onClick.AddListener(() =>
+        placeCopPlacement.onClick.AddListener(() =>
         {
-            ResetButtonColor();
-            ModifyOutline(PlaceCopPlacement);
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeCopPlacement);
             OnCopPlacement?.Invoke();
         });
 
-        PlaceSecurityButton.onClick.AddListener(() =>
+        placeSecurityButton.onClick.AddListener(() =>
         {
-            ResetButtonColor();
-            ModifyOutline(PlaceSecurityButton);
+            ResetButtonColor(buttonList);
+            ModifyOutline(placeSecurityButton);
             OnSecurityPlacement?.Invoke();
+        });
+
+        removeBtn.onClick.AddListener(() =>
+        {
+            insertMenu.SetActive(false);
+            buildMenu.SetActive(false);
+            ResetButtonColor(buttonMenuList);
+            ModifyOutline(removeBtn);
+            OnRemoveStructure?.Invoke();
         });
 
         buildBtn.onClick.AddListener(() =>
         {
             if(buildMenu.activeSelf == true)
+            {
+                ResetButtonColor(buttonMenuList);
                 buildMenu.SetActive(false);
+
+            }
             else
             {
+                ResetButtonColor(buttonMenuList);
+                ModifyOutline(buildBtn);
                 insertMenu.SetActive(false);
                 buildMenu.SetActive(true);
             }
@@ -86,15 +112,74 @@ public class UIController : MonoBehaviour
         {
             if (insertMenu.activeSelf == true)
             {
+                ResetButtonColor(buttonMenuList);
                 insertMenu.SetActive(false);
             }
             else
             {
+                ResetButtonColor(buttonMenuList);
+                ModifyOutline(insertBtn);
                 insertMenu.SetActive(true);
                 buildMenu.SetActive(false);
             } 
         });
 
+        printScreenButton.onClick.AddListener(() =>
+        {
+            insertMenu.SetActive(false);
+            buildMenu.SetActive(false);
+            //ScreenCapture.CaptureScreenshot("https;//wwww.lider.com/lider/dashboard/desafios/Disney/parque.png");
+            StartCoroutine(SendImagetophp());
+        });
+
+        endGameButton.onClick.AddListener(() =>
+         {
+             gameOver.SetActive(true);
+         });
+    }
+
+    IEnumerator SendImagetophp()
+    {
+        //Path to PHP
+        string screenShotURL = "https://lidermil.com/lider/dashboard/desafios/Disney/screen_capture.php";
+
+
+        //Wait until frame ends
+        yield return new WaitForEndOfFrame();
+
+        // Create a texture the size of the screen, RGB24 format
+        int width = Screen.width;
+        int height = Screen.height;
+        Texture2D tex = new Texture2D(width, height, TextureFormat.RGB24, false);
+
+        // Read screen contents into the texture        
+        tex.ReadPixels(new Rect(0, 0, width, height), 0, 0, false);
+        tex.Apply();
+
+
+        // Encode texture into PNG
+        byte[] bytes = tex.EncodeToPNG();
+        Destroy(tex);
+
+        // Create a Web Form
+        WWWForm form = new WWWForm();
+        form.AddField("frameCount", Time.frameCount.ToString());
+        //form.AddField("email", userEmailAddress);
+        form.AddBinaryData("file", bytes, "parque.png", "multipart/form-data");//"image/png"
+
+        // Post WWWForm to path
+        UnityWebRequest www = UnityWebRequest.Post(screenShotURL, form);
+        yield return www.SendWebRequest();
+        Debug.Log(www.downloadHandler.text);
+        //Debug
+        if (!(www.result == UnityWebRequest.Result.Success))
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            Debug.Log("Image Uploaded!");
+        }
     }
 
     private void ModifyOutline(Button button)
@@ -104,7 +189,7 @@ public class UIController : MonoBehaviour
         outline.enabled = true;
     }
 
-    private void ResetButtonColor()
+    private void ResetButtonColor(List<Button> buttonList)
     {
         foreach(Button button in buttonList)
         {
