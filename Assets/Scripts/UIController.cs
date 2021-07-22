@@ -12,12 +12,11 @@ public class UIController : MonoBehaviour
     public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, buildBtn, insertBtn, removeBtn;
 
     public Action OnCarPlacement, OnCopPlacement, OnSecurityPlacement;
-    public Button placeCarButton, placeCopPlacement, placeSecurityButton, printScreenButton, endGameButton;
+    public Button placeCarButton, placeCopPlacement, placeSecurityButton, endGameButton;
 
     public GameObject menu;
     public GameObject buildMenu;
     public GameObject insertMenu;
-    public GameObject printScreenMenu;
     public GameObject gameOver;
 
     public Canvas canvas;
@@ -124,17 +123,11 @@ public class UIController : MonoBehaviour
             } 
         });
 
-        printScreenButton.onClick.AddListener(() =>
-        {
-            insertMenu.SetActive(false);
-            buildMenu.SetActive(false);
-            //ScreenCapture.CaptureScreenshot("https;//wwww.lider.com/lider/dashboard/desafios/Disney/parque.png");
-            StartCoroutine(SendImagetophp());
-        });
-
         endGameButton.onClick.AddListener(() =>
          {
-             gameOver.SetActive(true);
+             insertMenu.SetActive(false);
+             buildMenu.SetActive(false);
+             StartCoroutine(SendImagetophp());
          });
     }
 
@@ -142,7 +135,7 @@ public class UIController : MonoBehaviour
     {
         //Path to PHP
         string screenShotURL = "https://lidermil.com/lider/dashboard/desafios/Disney/screen_capture.php";
-
+        
 
         //Wait until frame ends
         yield return new WaitForEndOfFrame();
@@ -164,7 +157,7 @@ public class UIController : MonoBehaviour
         // Create a Web Form
         WWWForm form = new WWWForm();
         form.AddField("frameCount", Time.frameCount.ToString());
-        //form.AddField("email", userEmailAddress);
+        form.AddField("pontuacao", GameManager.pontuacao);
         form.AddBinaryData("file", bytes, "parque.png", "multipart/form-data");//"image/png"
 
         // Post WWWForm to path
@@ -179,6 +172,7 @@ public class UIController : MonoBehaviour
         else
         {
             Debug.Log("Image Uploaded!");
+            gameOver.SetActive(true);
         }
     }
 

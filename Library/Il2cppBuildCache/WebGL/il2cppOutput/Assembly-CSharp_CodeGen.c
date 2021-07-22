@@ -240,91 +240,89 @@ extern void UIController_ModifyOutline_mA6DB5719FB6508E8B9FA9BAEEC7965C16B130B9B
 extern void UIController_ResetButtonColor_mBCB21ABC39EED34502F2DBA57E608ACF87397C3C (void);
 // 0x00000072 System.Void UIController::.ctor()
 extern void UIController__ctor_m57DAF9FADDD58C79489BCF6474E55D3514E9BA21 (void);
-// 0x00000073 System.Void UIController::<Start>b__29_0()
-extern void UIController_U3CStartU3Eb__29_0_m0DF8CC1AB9DBC6A37A0BC786445B01E80928EB13 (void);
-// 0x00000074 System.Void UIController::<Start>b__29_1()
-extern void UIController_U3CStartU3Eb__29_1_m022F4CDF4FC64A58FBAC0C5EE805EC51EA0A51D0 (void);
-// 0x00000075 System.Void UIController::<Start>b__29_2()
-extern void UIController_U3CStartU3Eb__29_2_m07B83BD2D5E0AE2889DCDFA6140DA7318F0A922A (void);
-// 0x00000076 System.Void UIController::<Start>b__29_3()
-extern void UIController_U3CStartU3Eb__29_3_m87D357EAEDF33DD9E5CB915A5838A71560267ABA (void);
-// 0x00000077 System.Void UIController::<Start>b__29_4()
-extern void UIController_U3CStartU3Eb__29_4_m781153E3E24DD8DE39559C4F62C2C8E7C412795A (void);
-// 0x00000078 System.Void UIController::<Start>b__29_5()
-extern void UIController_U3CStartU3Eb__29_5_mE608942EE6E617C854A6649C3CFDEF1DF9B65F5B (void);
-// 0x00000079 System.Void UIController::<Start>b__29_6()
-extern void UIController_U3CStartU3Eb__29_6_mA5864411618785B9B6A2A0D7AA56CD3B4723953D (void);
-// 0x0000007A System.Void UIController::<Start>b__29_7()
-extern void UIController_U3CStartU3Eb__29_7_m48864599099344E285D62F90E1F5D1719E4B7114 (void);
-// 0x0000007B System.Void UIController::<Start>b__29_8()
-extern void UIController_U3CStartU3Eb__29_8_mCB30E6979BD9E376E4E9D5126AA8D2904087B501 (void);
-// 0x0000007C System.Void UIController::<Start>b__29_9()
-extern void UIController_U3CStartU3Eb__29_9_m7D27862A1C96C2AC051459BDAB43B1E076BA52A7 (void);
-// 0x0000007D System.Void UIController::<Start>b__29_10()
-extern void UIController_U3CStartU3Eb__29_10_m7503DB36FC0EB97971575FAFA7F2CAA2A1BA5BFD (void);
-// 0x0000007E System.Void UIController::<Start>b__29_11()
-extern void UIController_U3CStartU3Eb__29_11_m44D2F060AC22171E1420D64BA7E81F33EEB27004 (void);
-// 0x0000007F System.Void UIController/<SendImagetophp>d__30::.ctor(System.Int32)
-extern void U3CSendImagetophpU3Ed__30__ctor_mA60CA22B08D26F1A088B4141E726DFDB5AADBD7F (void);
-// 0x00000080 System.Void UIController/<SendImagetophp>d__30::System.IDisposable.Dispose()
-extern void U3CSendImagetophpU3Ed__30_System_IDisposable_Dispose_m52955A39B694EA9D7ACCFE96517C3ADBB60FB3B1 (void);
-// 0x00000081 System.Boolean UIController/<SendImagetophp>d__30::MoveNext()
-extern void U3CSendImagetophpU3Ed__30_MoveNext_mBF05944C1E2B8ABF51185190952344B79823399B (void);
-// 0x00000082 System.Object UIController/<SendImagetophp>d__30::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CSendImagetophpU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0B6EE3E8859AEC6BA3DC94AEB8378BF91E5592F8 (void);
-// 0x00000083 System.Void UIController/<SendImagetophp>d__30::System.Collections.IEnumerator.Reset()
-extern void U3CSendImagetophpU3Ed__30_System_Collections_IEnumerator_Reset_m7840A31D50B7ABE0C746645E90D40A1E792E00F3 (void);
-// 0x00000084 System.Object UIController/<SendImagetophp>d__30::System.Collections.IEnumerator.get_Current()
-extern void U3CSendImagetophpU3Ed__30_System_Collections_IEnumerator_get_Current_m842639244CEEEAD41CBE2DD18BDA9C16EE333867 (void);
-// 0x00000085 System.Void Readme::.ctor()
+// 0x00000073 System.Void UIController::<Start>b__27_0()
+extern void UIController_U3CStartU3Eb__27_0_mED3529F395040434461F368AEB4E1A0EB6EF647B (void);
+// 0x00000074 System.Void UIController::<Start>b__27_1()
+extern void UIController_U3CStartU3Eb__27_1_mB58AB75B2788FF674BF721D8EE679419B3EB35B3 (void);
+// 0x00000075 System.Void UIController::<Start>b__27_2()
+extern void UIController_U3CStartU3Eb__27_2_m53D7F10BA4BEA6DB5F4CE4213B94A4635B574B90 (void);
+// 0x00000076 System.Void UIController::<Start>b__27_3()
+extern void UIController_U3CStartU3Eb__27_3_m50AE8371CEFC3FBD5CFB08E67A3958B3F81F14AD (void);
+// 0x00000077 System.Void UIController::<Start>b__27_4()
+extern void UIController_U3CStartU3Eb__27_4_m846D4B5FA75FBF79DC450A4844DC9261B87DB2EA (void);
+// 0x00000078 System.Void UIController::<Start>b__27_5()
+extern void UIController_U3CStartU3Eb__27_5_m233AD47121312A6F3426F9CFF88CAAFE378C1589 (void);
+// 0x00000079 System.Void UIController::<Start>b__27_6()
+extern void UIController_U3CStartU3Eb__27_6_mD40178A2A113D21AF0A00D9AD3AC7B32264747F9 (void);
+// 0x0000007A System.Void UIController::<Start>b__27_7()
+extern void UIController_U3CStartU3Eb__27_7_m026E61FB99EDDF64B433046FA5CBED1ACE330E98 (void);
+// 0x0000007B System.Void UIController::<Start>b__27_8()
+extern void UIController_U3CStartU3Eb__27_8_mA0A501BB63E2E41981762BFC95D6934F1ECD4523 (void);
+// 0x0000007C System.Void UIController::<Start>b__27_9()
+extern void UIController_U3CStartU3Eb__27_9_m3D1FEC899CEFB2C3ED39480CB42080AC75ACF90C (void);
+// 0x0000007D System.Void UIController::<Start>b__27_10()
+extern void UIController_U3CStartU3Eb__27_10_mF6888B59BEB1B921321C6EB1A3C1D37590239DCB (void);
+// 0x0000007E System.Void UIController/<SendImagetophp>d__28::.ctor(System.Int32)
+extern void U3CSendImagetophpU3Ed__28__ctor_m0B02AEF0C0FC6E479F92E5C5B8E6195E0BABE5E6 (void);
+// 0x0000007F System.Void UIController/<SendImagetophp>d__28::System.IDisposable.Dispose()
+extern void U3CSendImagetophpU3Ed__28_System_IDisposable_Dispose_m83D6480F7A3D41EBF1675E12524560DC043349A5 (void);
+// 0x00000080 System.Boolean UIController/<SendImagetophp>d__28::MoveNext()
+extern void U3CSendImagetophpU3Ed__28_MoveNext_m1DED46C748C3525025A54C4AE8CC2809C0203E0B (void);
+// 0x00000081 System.Object UIController/<SendImagetophp>d__28::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CSendImagetophpU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCD6D0AA57C96466C7C321416BFD837E39205B120 (void);
+// 0x00000082 System.Void UIController/<SendImagetophp>d__28::System.Collections.IEnumerator.Reset()
+extern void U3CSendImagetophpU3Ed__28_System_Collections_IEnumerator_Reset_m94A3DDA98E64F1018B2DF7FD1CBB1E51244DA3AD (void);
+// 0x00000083 System.Object UIController/<SendImagetophp>d__28::System.Collections.IEnumerator.get_Current()
+extern void U3CSendImagetophpU3Ed__28_System_Collections_IEnumerator_get_Current_m583BC64F108EE92CA3A6CB7D86B6D47AB21BAA97 (void);
+// 0x00000084 System.Void Readme::.ctor()
 extern void Readme__ctor_mF465410C5B2E598F2685E82CFCE1F42186AFF448 (void);
-// 0x00000086 System.Void Readme/Section::.ctor()
+// 0x00000085 System.Void Readme/Section::.ctor()
 extern void Section__ctor_mBAD5262A353BC071C61B8DB462A3D4D5AB5C7C4E (void);
-// 0x00000087 System.Void UnityTemplateProjects.SimpleCameraController::OnEnable()
+// 0x00000086 System.Void UnityTemplateProjects.SimpleCameraController::OnEnable()
 extern void SimpleCameraController_OnEnable_m2BA1F31BEDE84695933E86CF731059D6FAC2111C (void);
-// 0x00000088 UnityEngine.Vector3 UnityTemplateProjects.SimpleCameraController::GetInputTranslationDirection()
+// 0x00000087 UnityEngine.Vector3 UnityTemplateProjects.SimpleCameraController::GetInputTranslationDirection()
 extern void SimpleCameraController_GetInputTranslationDirection_m924AB4CEA66ADC4F1C63EAC21B660E0495765F4A (void);
-// 0x00000089 System.Void UnityTemplateProjects.SimpleCameraController::Update()
+// 0x00000088 System.Void UnityTemplateProjects.SimpleCameraController::Update()
 extern void SimpleCameraController_Update_m0E587F33074BE72C54BA835B2217B0E8EC94F24A (void);
-// 0x0000008A System.Single UnityTemplateProjects.SimpleCameraController::GetBoostFactor()
+// 0x00000089 System.Single UnityTemplateProjects.SimpleCameraController::GetBoostFactor()
 extern void SimpleCameraController_GetBoostFactor_m42B667ADEACC6F9CF0E4B6549A501609A15716AE (void);
-// 0x0000008B UnityEngine.Vector2 UnityTemplateProjects.SimpleCameraController::GetInputLookRotation()
+// 0x0000008A UnityEngine.Vector2 UnityTemplateProjects.SimpleCameraController::GetInputLookRotation()
 extern void SimpleCameraController_GetInputLookRotation_m4F945850C9036FAF5C3436AA42A1C3CB918E1BB9 (void);
-// 0x0000008C System.Boolean UnityTemplateProjects.SimpleCameraController::IsBoostPressed()
+// 0x0000008B System.Boolean UnityTemplateProjects.SimpleCameraController::IsBoostPressed()
 extern void SimpleCameraController_IsBoostPressed_m26120B18155EBB68597EA52F392AD1E59F9A71E0 (void);
-// 0x0000008D System.Boolean UnityTemplateProjects.SimpleCameraController::IsEscapePressed()
+// 0x0000008C System.Boolean UnityTemplateProjects.SimpleCameraController::IsEscapePressed()
 extern void SimpleCameraController_IsEscapePressed_mC694179281D2F4B20E831995751C70A26806488D (void);
-// 0x0000008E System.Boolean UnityTemplateProjects.SimpleCameraController::IsCameraRotationAllowed()
+// 0x0000008D System.Boolean UnityTemplateProjects.SimpleCameraController::IsCameraRotationAllowed()
 extern void SimpleCameraController_IsCameraRotationAllowed_mABB9E26C1CC5C5643B305685F046B4B8493C7AFA (void);
-// 0x0000008F System.Boolean UnityTemplateProjects.SimpleCameraController::IsRightMouseButtonDown()
+// 0x0000008E System.Boolean UnityTemplateProjects.SimpleCameraController::IsRightMouseButtonDown()
 extern void SimpleCameraController_IsRightMouseButtonDown_m0DE4F75C0A0AE963F333712F226000E0AE2DC32A (void);
-// 0x00000090 System.Boolean UnityTemplateProjects.SimpleCameraController::IsRightMouseButtonUp()
+// 0x0000008F System.Boolean UnityTemplateProjects.SimpleCameraController::IsRightMouseButtonUp()
 extern void SimpleCameraController_IsRightMouseButtonUp_mEDE93C76DE7120043B15F390865340D1C5165CE5 (void);
-// 0x00000091 System.Void UnityTemplateProjects.SimpleCameraController::.ctor()
+// 0x00000090 System.Void UnityTemplateProjects.SimpleCameraController::.ctor()
 extern void SimpleCameraController__ctor_mC6AE2509DDF461856450EC7DE0058A1687AB5C87 (void);
-// 0x00000092 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::SetFromTransform(UnityEngine.Transform)
+// 0x00000091 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::SetFromTransform(UnityEngine.Transform)
 extern void CameraState_SetFromTransform_mAF13C515CFB1085295C01A870D93375E98F16647 (void);
-// 0x00000093 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::Translate(UnityEngine.Vector3)
+// 0x00000092 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::Translate(UnityEngine.Vector3)
 extern void CameraState_Translate_mB8F7239BD9DB70190E59D47D75DD125AD9AF3A96 (void);
-// 0x00000094 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::LerpTowards(UnityTemplateProjects.SimpleCameraController/CameraState,System.Single,System.Single)
+// 0x00000093 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::LerpTowards(UnityTemplateProjects.SimpleCameraController/CameraState,System.Single,System.Single)
 extern void CameraState_LerpTowards_mF2D4B962A677B281ED2F539A2FFF8A693FB9A326 (void);
-// 0x00000095 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::UpdateTransform(UnityEngine.Transform)
+// 0x00000094 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::UpdateTransform(UnityEngine.Transform)
 extern void CameraState_UpdateTransform_mE653356FD34828D19ECB6793439A14C38F372410 (void);
-// 0x00000096 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::.ctor()
+// 0x00000095 System.Void UnityTemplateProjects.SimpleCameraController/CameraState::.ctor()
 extern void CameraState__ctor_m9C5338CABE70B8C73F8A4A08C1AFA1B33417DE9D (void);
-// 0x00000097 System.Void SVS.AudioPlayer::Awake()
+// 0x00000096 System.Void SVS.AudioPlayer::Awake()
 extern void AudioPlayer_Awake_m5ACC398361FF11C76C14F33556FBA47EDAD6501C (void);
-// 0x00000098 System.Void SVS.AudioPlayer::PlayPlacementSound()
+// 0x00000097 System.Void SVS.AudioPlayer::PlayPlacementSound()
 extern void AudioPlayer_PlayPlacementSound_mF3BFEBEFF14C4D1919C4D51D30757E3C08DAC1AA (void);
-// 0x00000099 System.Void SVS.AudioPlayer::.ctor()
+// 0x00000098 System.Void SVS.AudioPlayer::.ctor()
 extern void AudioPlayer__ctor_m9DF63792240E0DE857492365F33D60B6E60D467C (void);
-// 0x0000009A System.Void SVS.CameraMovement::Start()
+// 0x00000099 System.Void SVS.CameraMovement::Start()
 extern void CameraMovement_Start_m6C8CA7CFA86663B9A131941186539DF46F344315 (void);
-// 0x0000009B System.Void SVS.CameraMovement::MoveCamera(UnityEngine.Vector3)
+// 0x0000009A System.Void SVS.CameraMovement::MoveCamera(UnityEngine.Vector3)
 extern void CameraMovement_MoveCamera_mA216C78834D4DB3FE3DC68A8FDA1BCC6A25E1977 (void);
-// 0x0000009C System.Void SVS.CameraMovement::.ctor()
+// 0x0000009B System.Void SVS.CameraMovement::.ctor()
 extern void CameraMovement__ctor_m92D6357B25A2E55CDE3EA2AAB2CEFF3B6F54C305 (void);
-static Il2CppMethodPointer s_methodPointers[156] = 
+static Il2CppMethodPointer s_methodPointers[155] = 
 {
 	EmbeddedAttribute__ctor_m90D0B6DEB625101355554D49B2EE2FB67C875860,
 	IsReadOnlyAttribute__ctor_mF1843241F60B2240CFAE651F1FD8A7AE17E32ECD,
@@ -440,24 +438,23 @@ static Il2CppMethodPointer s_methodPointers[156] =
 	UIController_ModifyOutline_mA6DB5719FB6508E8B9FA9BAEEC7965C16B130B9B,
 	UIController_ResetButtonColor_mBCB21ABC39EED34502F2DBA57E608ACF87397C3C,
 	UIController__ctor_m57DAF9FADDD58C79489BCF6474E55D3514E9BA21,
-	UIController_U3CStartU3Eb__29_0_m0DF8CC1AB9DBC6A37A0BC786445B01E80928EB13,
-	UIController_U3CStartU3Eb__29_1_m022F4CDF4FC64A58FBAC0C5EE805EC51EA0A51D0,
-	UIController_U3CStartU3Eb__29_2_m07B83BD2D5E0AE2889DCDFA6140DA7318F0A922A,
-	UIController_U3CStartU3Eb__29_3_m87D357EAEDF33DD9E5CB915A5838A71560267ABA,
-	UIController_U3CStartU3Eb__29_4_m781153E3E24DD8DE39559C4F62C2C8E7C412795A,
-	UIController_U3CStartU3Eb__29_5_mE608942EE6E617C854A6649C3CFDEF1DF9B65F5B,
-	UIController_U3CStartU3Eb__29_6_mA5864411618785B9B6A2A0D7AA56CD3B4723953D,
-	UIController_U3CStartU3Eb__29_7_m48864599099344E285D62F90E1F5D1719E4B7114,
-	UIController_U3CStartU3Eb__29_8_mCB30E6979BD9E376E4E9D5126AA8D2904087B501,
-	UIController_U3CStartU3Eb__29_9_m7D27862A1C96C2AC051459BDAB43B1E076BA52A7,
-	UIController_U3CStartU3Eb__29_10_m7503DB36FC0EB97971575FAFA7F2CAA2A1BA5BFD,
-	UIController_U3CStartU3Eb__29_11_m44D2F060AC22171E1420D64BA7E81F33EEB27004,
-	U3CSendImagetophpU3Ed__30__ctor_mA60CA22B08D26F1A088B4141E726DFDB5AADBD7F,
-	U3CSendImagetophpU3Ed__30_System_IDisposable_Dispose_m52955A39B694EA9D7ACCFE96517C3ADBB60FB3B1,
-	U3CSendImagetophpU3Ed__30_MoveNext_mBF05944C1E2B8ABF51185190952344B79823399B,
-	U3CSendImagetophpU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0B6EE3E8859AEC6BA3DC94AEB8378BF91E5592F8,
-	U3CSendImagetophpU3Ed__30_System_Collections_IEnumerator_Reset_m7840A31D50B7ABE0C746645E90D40A1E792E00F3,
-	U3CSendImagetophpU3Ed__30_System_Collections_IEnumerator_get_Current_m842639244CEEEAD41CBE2DD18BDA9C16EE333867,
+	UIController_U3CStartU3Eb__27_0_mED3529F395040434461F368AEB4E1A0EB6EF647B,
+	UIController_U3CStartU3Eb__27_1_mB58AB75B2788FF674BF721D8EE679419B3EB35B3,
+	UIController_U3CStartU3Eb__27_2_m53D7F10BA4BEA6DB5F4CE4213B94A4635B574B90,
+	UIController_U3CStartU3Eb__27_3_m50AE8371CEFC3FBD5CFB08E67A3958B3F81F14AD,
+	UIController_U3CStartU3Eb__27_4_m846D4B5FA75FBF79DC450A4844DC9261B87DB2EA,
+	UIController_U3CStartU3Eb__27_5_m233AD47121312A6F3426F9CFF88CAAFE378C1589,
+	UIController_U3CStartU3Eb__27_6_mD40178A2A113D21AF0A00D9AD3AC7B32264747F9,
+	UIController_U3CStartU3Eb__27_7_m026E61FB99EDDF64B433046FA5CBED1ACE330E98,
+	UIController_U3CStartU3Eb__27_8_mA0A501BB63E2E41981762BFC95D6934F1ECD4523,
+	UIController_U3CStartU3Eb__27_9_m3D1FEC899CEFB2C3ED39480CB42080AC75ACF90C,
+	UIController_U3CStartU3Eb__27_10_mF6888B59BEB1B921321C6EB1A3C1D37590239DCB,
+	U3CSendImagetophpU3Ed__28__ctor_m0B02AEF0C0FC6E479F92E5C5B8E6195E0BABE5E6,
+	U3CSendImagetophpU3Ed__28_System_IDisposable_Dispose_m83D6480F7A3D41EBF1675E12524560DC043349A5,
+	U3CSendImagetophpU3Ed__28_MoveNext_m1DED46C748C3525025A54C4AE8CC2809C0203E0B,
+	U3CSendImagetophpU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCD6D0AA57C96466C7C321416BFD837E39205B120,
+	U3CSendImagetophpU3Ed__28_System_Collections_IEnumerator_Reset_m94A3DDA98E64F1018B2DF7FD1CBB1E51244DA3AD,
+	U3CSendImagetophpU3Ed__28_System_Collections_IEnumerator_get_Current_m583BC64F108EE92CA3A6CB7D86B6D47AB21BAA97,
 	Readme__ctor_mF465410C5B2E598F2685E82CFCE1F42186AFF448,
 	Section__ctor_mBAD5262A353BC071C61B8DB462A3D4D5AB5C7C4E,
 	SimpleCameraController_OnEnable_m2BA1F31BEDE84695933E86CF731059D6FAC2111C,
@@ -490,7 +487,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 	{ 0x0600002A, SearchResult_get_Path_m3254D74077703401CFB054886E80763FAB6F6A6E_AdjustorThunk },
 	{ 0x0600002B, SearchResult_set_Path_m7954076DC1ED6A0B36F1B8EF019B530BFAB8E7C0_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[156] = 
+static const int32_t s_InvokerIndices[155] = 
 {
 	2030,
 	2030,
@@ -617,7 +614,6 @@ static const int32_t s_InvokerIndices[156] =
 	2030,
 	2030,
 	2030,
-	2030,
 	1683,
 	2030,
 	2004,
@@ -654,7 +650,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	156,
+	155,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

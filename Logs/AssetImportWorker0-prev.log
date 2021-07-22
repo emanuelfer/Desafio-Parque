@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 22000.65; Version 2009; 64bit' Language: 'pt' Physical Memory: 8072 MB
+OS: 'Windows 10 Home Single Language; OS build 22000.71; Version 2009; 64bit' Language: 'pt' Physical Memory: 8072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/emanu/Desafio Disney
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49373
+49853
 Successfully changed project path to: C:/Users/emanu/Desafio Disney
 C:/Users/emanu/Desafio Disney
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 669.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 138.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,710 +35,525 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009163 seconds.
+Registered in 0.006576 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1034.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 12.545 seconds
+- Completed reload, in  5.840 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019067 seconds.
+Registered in 0.012321 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 154.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 217.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.498 seconds
+- Completed reload, in  3.475 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.3 MB.
-System memory in use after: 136.2 MB.
+System memory in use before: 138.4 MB.
+System memory in use after: 136.3 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3186.
-Total: 12.441900 ms (FindLiveObjects: 0.808400 ms CreateObjectMapping: 0.503900 ms MarkObjects: 7.773900 ms  DeleteObjects: 3.352100 ms)
+Total: 5.521900 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.183500 ms MarkObjects: 3.365700 ms  DeleteObjects: 1.636700 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scripts/UIController.cs
   artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6285f277bdef511312fbfe6b8fb2d7') in 0.095792 seconds
-  Import took 0.109284 seconds .
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.039543 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.045338 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.517267 seconds.
+  Time since last request: 0.036044 seconds.
   path: Assets/Scripts/UIController.cs
   artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ccaef74d2789368cdf3ff8773db46f') in 0.005300 seconds
-  Import took 0.013815 seconds .
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000578 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.355751 seconds.
+  Time since last request: 0.031553 seconds.
   path: Assets/Scripts/UIController.cs
   artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2e851749698dfc708dea4b07d1ebc5') in 0.006122 seconds
-  Import took 0.015949 seconds .
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000423 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.006500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038047 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028127 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000755 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.011010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031570 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045561 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000578 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038868 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000618 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048314 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000599 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045101 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000942 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.012045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036503 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000734 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052348 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001120 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038137 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000808 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034706 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046330 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000850 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039596 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000671 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040409 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000811 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.011928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056362 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000631 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041321 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000466 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044249 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000631 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033169 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000582 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040733 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000765 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050359 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000571 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036044 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000735 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035085 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000569 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053936 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035394 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000765 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033897 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000945 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038581 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000826 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040292 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000579 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037314 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000576 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042282 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000585 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040782 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000565 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031247 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000502 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031141 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000955 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037507 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000501 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032689 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000485 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033903 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000660 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052644 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001216 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.030342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040688 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032092 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000516 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036796 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000549 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037680 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000468 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.008177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030456 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000740 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.010466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030730 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000519 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042484 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000506 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031267 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000498 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.007680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032458 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000470 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.006830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035603 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000509 seconds
+  ERROR: Build asset version error: assets/scripts/uicontroller.cs in SourceAssetDB has modification time of '2021-07-22T11:42:20.9736904Z' while content on disk has modification time of '2021-07-22T11:42:31.8131602Z'
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052659 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c316ec719f365bfa665c5ea651a24b64') in 0.011904 seconds
+  Import took 0.020207 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016896 seconds.
+Registered in 0.025400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.523 seconds
+- Completed reload, in  2.311 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
+System memory in use before: 134.1 MB.
 System memory in use after: 131.9 MB.
 
 Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3189.
-Total: 7.232800 ms (FindLiveObjects: 0.605700 ms CreateObjectMapping: 0.273500 ms MarkObjects: 3.781900 ms  DeleteObjects: 2.569100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.186 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 131.9 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3192.
-Total: 7.439900 ms (FindLiveObjects: 0.495600 ms CreateObjectMapping: 0.249900 ms MarkObjects: 4.249700 ms  DeleteObjects: 2.442500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.866091 seconds.
-  path: Assets/Scripts/UIController.cs
-  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab4b4344327c3e79ea47b0ca0b3b85') in 0.016656 seconds
-  Import took 0.026429 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.674 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 131.9 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3195.
-Total: 11.619900 ms (FindLiveObjects: 0.715700 ms CreateObjectMapping: 0.380100 ms MarkObjects: 7.004200 ms  DeleteObjects: 3.516200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.725753 seconds.
-  path: Assets/Scripts/UIController.cs
-  artifactKey: Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(894de5d11f88974479d8c9e9d9e383c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d39eab9e2fcd9ceeca22cb1e446c6c') in 0.019587 seconds
-  Import took 0.032831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.316495 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/Plugins
-  artifactKey: Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins using Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8ac4b057686cfc46c656e728886f5') in 0.017605 seconds
-  Import took 0.027214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002813 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/Plugins
-  artifactKey: Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins using Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8ac4b057686cfc46c656e728886f5') in 0.006227 seconds
-  Import took 0.016262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.478799 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
-  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c166c5239c9f94d6347c9b443d9b01') in 0.029981 seconds
-  Import took 0.041811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005051 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
-  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c166c5239c9f94d6347c9b443d9b01') in 0.010242 seconds
-  Import took 0.025449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.242468 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/UXML/GraphView/BlackboardRow.uxml
-  artifactKey: Guid(5983202b0aaecde4382a697a6ba9afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/UXML/GraphView/BlackboardRow.uxml using Guid(5983202b0aaecde4382a697a6ba9afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb0f96de1a87a3e7d72746ba4adfb5b') in 0.155524 seconds
-  Import took 0.183877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000850 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss
-  artifactKey: Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/BooleanSlotControlView.uss using Guid(c72bf0f50e306d944a1e48a2bb299082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b68de84845a2bbd548e832483e4f3d') in 0.036836 seconds
-  Import took 0.052582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.184566 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle
-  artifactKey: Guid(a20df6e3467b24ed5b49c857ce39e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle using Guid(a20df6e3467b24ed5b49c857ce39e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed52b1b402527063755837f21b82c42') in 0.010903 seconds
-  Import took 0.018872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038093 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle
-  artifactKey: Guid(a20df6e3467b24ed5b49c857ce39e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle using Guid(a20df6e3467b24ed5b49c857ce39e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed52b1b402527063755837f21b82c42') in 0.005164 seconds
-  Import took 0.012476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.858122 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle/Contents
-  artifactKey: Guid(543eb5eeeb1d5424ca8876b93fad5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle/Contents using Guid(543eb5eeeb1d5424ca8876b93fad5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd858a79e00b479bf727e6dec07b207') in 0.008133 seconds
-  Import took 0.017643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.505277 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
-  artifactKey: Guid(a674720496c1ed248a5b7ea3e22a11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png using Guid(a674720496c1ed248a5b7ea3e22a11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e87fdc74a6ea12253ff0f5c5385ab8') in 0.338351 seconds
-  Import took 0.357840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.831631 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Utilities/OpenLinksUtility.cs
-  artifactKey: Guid(1368dd525e9009940aba9e7dbc654456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Utilities/OpenLinksUtility.cs using Guid(1368dd525e9009940aba9e7dbc654456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3849f749be1789e3eb7304b147f2c18d') in 0.012497 seconds
-  Import took 0.028071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.477622 seconds.
-  path: Assets/Models/DinosaursModels/Apatosaurus.fbx
-  artifactKey: Guid(22e833c731f9f1a4485469c27861e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/DinosaursModels/Apatosaurus.fbx using Guid(22e833c731f9f1a4485469c27861e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38289df6ce79339b96a4b8cfd30fe47') in 1.217523 seconds
-  Import took 1.227371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Models/DinosaursModels/Stegosaurus.fbx
-  artifactKey: Guid(093571a210b0305408759ca2d169338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/DinosaursModels/Stegosaurus.fbx using Guid(093571a210b0305408759ca2d169338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8401b79ae2b6c3ec3bb75bbdc81ffa4d') in 0.068447 seconds
-  Import took 0.077038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Models/DinosaursModels/Parasaurolophus.fbx
-  artifactKey: Guid(8543cadd5928d0c4098dec1f244d1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/DinosaursModels/Parasaurolophus.fbx using Guid(8543cadd5928d0c4098dec1f244d1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124a853e976b885563be3c017f7bf67e') in 0.060591 seconds
-  Import took 0.068317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.621465 seconds.
-  path: Packages/com.unity.nuget.newtonsoft-json/Runtime/Portable/Newtonsoft.Json.dll
-  artifactKey: Guid(e8a2e6265da3549468b4ccef3eb81e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.nuget.newtonsoft-json/Runtime/Portable/Newtonsoft.Json.dll using Guid(e8a2e6265da3549468b4ccef3eb81e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432c0fe1fd94058c7c865682d3f01cc') in 0.015759 seconds
-  Import took 0.024260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007947 seconds.
-  path: Packages/com.unity.nuget.newtonsoft-json/Runtime/Portable/Newtonsoft.Json.dll
-  artifactKey: Guid(e8a2e6265da3549468b4ccef3eb81e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.nuget.newtonsoft-json/Runtime/Portable/Newtonsoft.Json.dll using Guid(e8a2e6265da3549468b4ccef3eb81e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432c0fe1fd94058c7c865682d3f01cc') in 0.006848 seconds
-  Import took 0.017229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.897923 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset
-  artifactKey: Guid(693b7d13a80c93a4e8b791a9cd5e5ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset using Guid(693b7d13a80c93a4e8b791a9cd5e5ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e06aa7c4ae13f88fee59a8ae88c1c0') in 0.026438 seconds
-  Import took 0.043005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001058 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapUp.png
-  artifactKey: Guid(a58fea03b14b2be4295b11f21a57a6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapUp.png using Guid(a58fea03b14b2be4295b11f21a57a6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2af004d49adae6c7e9d59036f35fff3') in 0.036186 seconds
-  Import took 0.053542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.051077 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
-  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a60844825dd8424403a77caa65a0bcf') in 0.039858 seconds
-  Import took 0.050942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
-  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c000007a8fb7778012ac9ad959562d') in 0.021014 seconds
-  Import took 0.033907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.439007 seconds.
-  path: Packages/com.unity.ide.rider/Rider/Editor/PluginSettings.cs
-  artifactKey: Guid(1bfe12aa306c0c74db4f4f1a1a0ae5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/Rider/Editor/PluginSettings.cs using Guid(1bfe12aa306c0c74db4f4f1a1a0ae5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab89dd2369d80ab2830f25915e40ab4') in 0.008524 seconds
-  Import took 0.020518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000885 seconds.
-  path: Packages/com.unity.ide.rider/Rider/Editor/PluginSettings.cs
-  artifactKey: Guid(1bfe12aa306c0c74db4f4f1a1a0ae5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/Rider/Editor/PluginSettings.cs using Guid(1bfe12aa306c0c74db4f4f1a1a0ae5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab89dd2369d80ab2830f25915e40ab4') in 0.007253 seconds
-  Import took 0.018208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.536690 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(c3e9e834d6dd95a44807e83e1af509a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(c3e9e834d6dd95a44807e83e1af509a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f87bdc541a7794a136fac58f3737cc') in 0.006620 seconds
-  Import took 0.015244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.817111 seconds.
-  path: Assets/Plugins/WebGL
-  artifactKey: Guid(f290bd7133c1a334db5bdc9c36e507ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/WebGL using Guid(f290bd7133c1a334db5bdc9c36e507ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ecde95177933fcff3a32d150828191') in 0.008408 seconds
-  Import took 0.015956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 364.471062 seconds.
-  path: Assets/Plugins/WebGL/GameObject.prefab
-  artifactKey: Guid(54b78adc328ccda4c90ef433cc4dc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/WebGL/GameObject.prefab using Guid(54b78adc328ccda4c90ef433cc4dc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223e56243bae96298fe5bd3847f42964') in 0.016396 seconds
-  Import took 0.025847 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013688 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.541 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3252.
-Total: 6.019900 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.250800 ms MarkObjects: 3.491300 ms  DeleteObjects: 1.849500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016070 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.088 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3255.
-Total: 14.532300 ms (FindLiveObjects: 0.813700 ms CreateObjectMapping: 0.469400 ms MarkObjects: 8.170700 ms  DeleteObjects: 5.073800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.028769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.864 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3258.
-Total: 14.716200 ms (FindLiveObjects: 1.080700 ms CreateObjectMapping: 0.598500 ms MarkObjects: 8.759300 ms  DeleteObjects: 4.273500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012523 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.366 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3261.
-Total: 10.267900 ms (FindLiveObjects: 0.637000 ms CreateObjectMapping: 0.453500 ms MarkObjects: 6.781400 ms  DeleteObjects: 2.393000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.010 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3264.
-Total: 11.293000 ms (FindLiveObjects: 1.230700 ms CreateObjectMapping: 0.431800 ms MarkObjects: 6.677400 ms  DeleteObjects: 2.950600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018938 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.008 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 7.848700 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.270200 ms MarkObjects: 4.258000 ms  DeleteObjects: 2.833000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011161 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.744 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3270.
-Total: 7.145400 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.194900 ms MarkObjects: 4.325500 ms  DeleteObjects: 2.180400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014703 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.162 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3273.
-Total: 8.189000 ms (FindLiveObjects: 0.514000 ms CreateObjectMapping: 0.251100 ms MarkObjects: 4.413200 ms  DeleteObjects: 3.007800 ms)
+Total: 7.705900 ms (FindLiveObjects: 0.503100 ms CreateObjectMapping: 0.228800 ms MarkObjects: 4.248700 ms  DeleteObjects: 2.723300 ms)
 
 ========================================================================
 Received Prepare
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 10.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 99.2 MB.
+System memory in use before: 82.0 MB.
+System memory in use after: 79.9 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3273.
-Total: 8.393800 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.229100 ms MarkObjects: 4.800300 ms  DeleteObjects: 2.902300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.822 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3276.
-Total: 8.486900 ms (FindLiveObjects: 0.695600 ms CreateObjectMapping: 0.348300 ms MarkObjects: 4.649200 ms  DeleteObjects: 2.791600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020963 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.024 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 7.401900 ms (FindLiveObjects: 0.434100 ms CreateObjectMapping: 0.212600 ms MarkObjects: 4.194300 ms  DeleteObjects: 2.559000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.549 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3282.
-Total: 9.748800 ms (FindLiveObjects: 0.738500 ms CreateObjectMapping: 0.451600 ms MarkObjects: 5.631800 ms  DeleteObjects: 2.924400 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 10.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3282.
-Total: 9.086600 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.242400 ms MarkObjects: 5.905300 ms  DeleteObjects: 2.430800 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 14.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3282.
-Total: 71.204900 ms (FindLiveObjects: 2.027100 ms CreateObjectMapping: 0.371900 ms MarkObjects: 66.083500 ms  DeleteObjects: 2.716600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018664 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.456 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3285.
-Total: 12.245800 ms (FindLiveObjects: 1.007500 ms CreateObjectMapping: 0.364200 ms MarkObjects: 7.777600 ms  DeleteObjects: 3.093700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021715 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.670 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3288.
-Total: 6.929600 ms (FindLiveObjects: 0.651300 ms CreateObjectMapping: 0.256600 ms MarkObjects: 3.823500 ms  DeleteObjects: 2.196100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.108 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3291.
-Total: 13.811100 ms (FindLiveObjects: 1.850900 ms CreateObjectMapping: 0.519300 ms MarkObjects: 7.065800 ms  DeleteObjects: 4.367700 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 11.501800 ms (FindLiveObjects: 0.495600 ms CreateObjectMapping: 0.305700 ms MarkObjects: 7.709500 ms  DeleteObjects: 2.986400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

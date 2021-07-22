@@ -10,11 +10,13 @@ public class GameManager : MonoBehaviour
     public RoadManager roadManager;
     public InputManager inputManager;
     public UIController uiController;
+    public static int pontuacao;
 
     public StructureManager structureManager;
 
     private void Start()
     {
+        pontuacao = 0;
         uiController.OnRoadPlacement += RoadPlacementHandler;
         uiController.OnHousePlacement += HousePlacementHandler;
         uiController.OnSpecialPlacement += SpecialPlacementHandler;

@@ -77,6 +77,7 @@ public class PlacementManager : MonoBehaviour
                 }
             }
         }
+        GameManager.pontuacao += 1;
     }
 
     private void DestroyNatureAt(Vector3Int position)
